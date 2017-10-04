@@ -25,7 +25,13 @@ int main()
   //of the element's row and column and the third blank should be replaced
   //with the value of that element
 
-  
+  for(int row = 0; row < wordGrid.size(); row++)
+      {
+      for(int col = 0; col < wordGrid[row].size(); col++)
+      {
+      cout<< "Row: " << row << " Column: " <<  col << " is " << wordGrid[row][col]<<endl;
+      }
+      }
 
 
 
